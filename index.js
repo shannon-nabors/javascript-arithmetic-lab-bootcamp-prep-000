@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function add(a,b) {
   return a + b
 }
@@ -29,3 +30,18 @@ function makeInt(n) {
 function preserveDecimal(n) {
   return parseFloat(n)
 }
+=======
+var number = 10
+
+function add5() {
+  number += 5
+}
+
+function divideBy3() {
+  number /= 3
+}
+
+divideBy3()
+
+console.log(number)
+>>>>>>> de9107fa8872f891b76b2555796dc0b291f589cd
